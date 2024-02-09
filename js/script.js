@@ -995,7 +995,7 @@ let isUpdatingSpeed = false;
 
 function handlePointerStart(event) {
 	activePointerCount++;
-	const btnSize = 50;
+	const btnSize = 0;
 	
 	if (event.y < btnSize) {
 		if (event.x < btnSize) {
